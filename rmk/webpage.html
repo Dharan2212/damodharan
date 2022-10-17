@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="webpage.css">
+	<title>MyWeb</title>
+</head>
+<body>
+	<nav class="navbar">
+		<h1 class="logo"><img src="/home/damodharan/Desktop/from/rmk/photos/Vector.png"></h1>
+		<ul class="nav-link">
+			<li class="active"><a href="#"></a>Home</li>
+			<li>SHOP</li>
+			<li>ABOUT</li>
+			<li>CONTECT</li>
+			<ion-icon name="cart"></ion-icon>
+			<li class="ctn">CART</li>
+		</ul>
+		<img src="/home/damodharan/Pictures/flowers.jpg" alt="" class="menu-btn">
+	</nav>
+	<header>
+		<div class="header-content">
+				<h1>SHOP</h1>
+				<h1>TOGETHER</h1>
+				<p>We want your child to feel comfortable<br>
+					loved and free.Our orginic and fnirade<br>
+					clothing ensures that your baby can play<br>
+				and be happy.</p>
+		</div>
+		<div class="pic">
+			<img src="/home/damodharan/Downloads/Rectangle 12.png">
+		</div>
+	</header>
+	<div class="sub">
+	<input type="submit" name="SHOP NOW" value="SHOP NOW">
+	</div>
+	<script>
+		const menuBtn = document.querySelector('.menu-btn')
+		const navlink = document.querySelector('.nav-link')
+
+		menuBtn.addEventListener('click',()=>{
+			navlink.classList.toggle('mobile-menu')
+		})
+	</script>
+</body>
+</html>
